@@ -17,7 +17,7 @@
 
 * {
   padding: 0;
-  margin: 0;
+  margin: 1;
   box-sizing: border-box;
 }
 
@@ -46,12 +46,12 @@ header {
 
 header .container {
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-between 1;
   align-items: center;
 }
 
 .menu {
-  display: flex;
+  display: row;
   gap: 2rem;
   align-items: center;
 }
@@ -81,7 +81,7 @@ header .container {
 
 .wallet-btn {
   border-radius: 5rem;
-  margin-left: 2rem;
+  margin-left: 5rem;
   border-color: transparent;
 }
 
@@ -98,7 +98,7 @@ section {
 }
 
 .countdown {
-  display: flex;
+  display: row;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -106,7 +106,7 @@ section {
 }
 
 .countdown ul {
-  display: flex;
+  display: row;
   gap: 2rem
 }
 .countdown .clock-item {
@@ -169,12 +169,12 @@ section {
     gap: 1rem;
   }
   .wallet-btn {
-    margin-left: 0;
+    margin-left: 1;
     padding: 1rem;
     max-width: 8rem;
   }
   .countdown h1 {
-    font-size: 2rem;
+    font-size: 1rem;
   }
   .countdown p {
     font-size: 1rem;
