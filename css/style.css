@@ -31,10 +31,10 @@ body {
 }
 
 .container {
-  display: flex;
+  display: center;
   flex-direction: column;
   max-width: 960px;
-  margin: 0 auto;
+  margin: auto;
   padding: 1rem 2rem;
 }
 
